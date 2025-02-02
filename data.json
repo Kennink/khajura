@@ -1,0 +1,36 @@
+{
+  "officers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "phone_number": "123-456-7890",
+      "designation": "Inspector"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "phone_number": "987-654-3210",
+      "designation": "Sergeant"
+    }
+  ],
+  "updates": [
+    {
+      "id": 1,
+      "title": "Daily Routine",
+      "content": "Patrol the downtown area.",
+      "post_date": "2023-10-01"
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "username": "user",
+      "password": "user123",
+      "role": "user"
+    }
+  ]
+}

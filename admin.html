@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Admin Panel</h1>
+
+        <section id="manage-officers">
+            <h2>Manage Officers</h2>
+            <form id="add-officer-form">
+                <input type="text" id="officer-name" placeholder="Officer Name" required>
+                <input type="text" id="officer-phone" placeholder="Phone Number" required>
+                <input type="text" id="officer-designation" placeholder="Designation" required>
+                <button type="submit">Add Officer</button>
+            </form>
+            <div id="officer-list"></div>
+        </section>
+
+        <section id="post-update">
+            <h2>Post Update</h2>
+            <form id="update-form">
+                <input type="text" id="update-title" placeholder="Title" required>
+                <textarea id="update-content" placeholder="Content" required></textarea>
+                <button type="submit">Post Update</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
